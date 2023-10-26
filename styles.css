@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
     
 }
 
@@ -116,12 +117,12 @@ a:visited {
 
 @media (max-width: 768px) {
     .articleContainer {
-        flex-direction: column; /* Stack items vertically */
-        align-items: flex-start; /* Reset alignment for smaller screens if needed */
+        flex-direction: column;
+        align-items: flex-start; 
     }
     
     .articleItem {
-        flex: 0 0 100%; /* Full width for stacked items */
+        flex: 0 0 100%; 
         margin-bottom: 1rem;
     }
 }
